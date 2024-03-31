@@ -1,4 +1,20 @@
-const button = getElementById('button')
-var status = (button == true) ? "funcionou" : "nao funcionou"
+function insert(num) {
+    var numero = document.getElementById('result').innerHTML
+    document.getElementById('result').innerHTML = numero + num;
 
-console.log(status)
+}
+function clean() {
+    document.getElementById('result').innerHTML = ""
+}
+function del() {
+    var result = document.getElementById('result').innerHTML
+    document.getElementById('result').innerHTML = resultado.substring(0, result.length - 1)
+}
+function calcular() {
+    var result = document.getElementById('result').innerHTML
+    if (result) {
+        document.getElementById('result').innerHTML = eval(result)
+    } else {
+        document.getElementById('result').innerHTML = ""
+    }
+}
