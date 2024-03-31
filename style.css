@@ -1,0 +1,42 @@
+.pad {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    border-radius: 5px;
+    /*justify-content: center;
+     border: 1px solid;
+    align-items: center;
+    height: 300px;
+    */
+}
+
+
+/*.display {
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    text-align: right;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}*/
+
+.pad.line1 {
+    flex: auto;
+    width: 40px;
+}
+
+.pad.line2 {
+    flex: auto
+}
+
+.pad.line3 {
+    flex: auto
+}
+
+.pad.line4 {
+    flex: auto
+}
